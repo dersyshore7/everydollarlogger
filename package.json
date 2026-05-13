@@ -1,0 +1,19 @@
+{
+  "name": "everydollar-entry-bot",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local TypeScript + Playwright helper to preview and prepare EveryDollar expense entries from bank CSV statements.",
+  "scripts": {
+    "preview": "ts-node src/runPreview.ts",
+    "enter": "ts-node src/runEnter.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "playwright": "^1.54.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
